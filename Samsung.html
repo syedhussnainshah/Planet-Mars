@@ -12,19 +12,7 @@
 .navbar-nav{margin-right: 700px;}
 </style>
 <body>
-  <div class="collapse" id="navbarToggleExternalContent">
-    <div class="bg-light p-4">
-      <h5 class="text-dark h4">Welcome To The Futute</h5>
-      <span class="text-muted">Here Were Start.</span>
-    </div>
-  </div>
-  <nav class="navbar navbar-light bg-light">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-  </nav>
+ 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#" ><img style="width: 25%;" src="samsung-logo-png-1300.png"></a>
@@ -155,7 +143,7 @@
 <style>
   .container{display: flex ;}
   .bb{margin-right: 2%;
- }
+ }.bb:hover{background-color: whitesmoke;}
  .card:hover{background-color: gray;
   transition: 1s;
   color: white;
@@ -163,6 +151,10 @@
  li{margin-top: 7%;}
  li:hover{color: gray;
  cursor: pointer;}
+ @media only screen and (max-width:700px) {
+ .as  {display: flex;
+flex-direction: column;}
+.carousel-inner{width: 200%;}}
 </style>
   <div class="container">
 <div class="bb" style="border: 1px solid gray;padding: 5%;">
