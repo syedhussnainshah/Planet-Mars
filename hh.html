@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .inpu{background-color: lightblue;
+        color: black;
+    border: 1px solid black;
+font-size: xx-large;}
+
+    .inp{background-color: lightblue;
+        color: black;
+    border: 1px solid black;
+font-size: xx-large;}
+body{background-color: lightgreen;}
+.botn{font-size: large;
+}
+    </style>
+   <div>
+       <img style="width: 40%;margin-left: 2%;" src="toppng.com-free-png-walmart-logo-png-images-transparent-walmart-logo-hi-res-783x219.png">
+   </div>
+    <input style="font-size: x-large;" id="todoinput" type="text" placeholder="Product Name">
+    <input style="font-size: x-large;" id="ludoinput" type="number" placeholder="Product Price">
+    <button id="todoaddbtn">Add</button>
+   <div style="display: flex;background-color: whitesmoke;margin-top: 2%;margin: 6%;">
+       <div>
+        <h1>Product Name</h1>
+        <ul id="todounorder"></ul>
+       </div>
+
+       <div style="margin-left: 20%;">
+        <h1>Product Price</h1>
+        <ul id="order"></ul>
+       </div>
+
+   </div>
+
+    <script>
+        let todoinput = document.getElementById("todoinput");
+        let btn = document.getElementById("todoaddbtn");
+        let unorder = document.getElementById("todounorder");
+
+        btn.addEventListener("click" , () =>{
+            let li = document.createElement("li");
+            let pi = document.createElement("li");
+           let todotext = document.createTextNode(todoinput.value);
+            let resinput = document.createElement("input");
+            let pesinput = document.createElement("input");
+            pesinput.type = "text";
+          
+            resinput.type = "text";
+           
+            resinput.setAttribute('readonly' , 'readonly');
+            pesinput.setAttribute('readonly' , 'readonly');
+            resinput.classList.add("inpu");
+            pesinput.classList.add("inp");
+            resinput.value = todoinput.value;
+            pesinput.value = ludoinput.value;
+        
+            editbtn = document.createElement("button");
+            editbtn.innerHTML = "Edit";
+            editbtn.classList.add("botn");
+            
+            li.appendChild(editbtn);
+
+            editbtn.addEventListener('click', () => {
+                if (editbtn.innerHTML == 'Edit') {
+    resinput.removeAttribute('readonly' , 'readonly');
+    pesinput.removeAttribute('readonly' , 'readonly');
+    editbtn.innerHTML = "Save";}
+ else  {
+    editbtn.innerHTML = 'Edit';
+    resinput.setAttribute('readonly' , 'readonly');
+    pesinput.setAttribute('readonly' , 'readonly');
+}
+            });
+
+
+            li.appendChild(resinput);
+            pi.appendChild(pesinput);
+            todounorder.appendChild(li);
+            order.appendChild(pi);
+        }); 
+       
+
+    </script>
+</body>
+</html>
+
+
+
+
