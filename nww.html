@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+<style>
+    .cart{margin-right: 80px;
+    color: white;}
+    .call{padding-right: 2%;
+        color: white;}
+    .wish{padding-right: 2%;
+        color: white;}
+    .compare{padding-right: 2%;
+        color: white;}
+        .qw{ color: white;}
+        .sho{width: 35%;
+        margin-left: 300px;
+      margin-top: 5%;}
+        .hero{display:flex;
+        flex-direction: row;
+    background-color: whitesmoke;
+
+padding-bottom: 5%;}
+    .sd{margin-top: 12%;
+    margin-left: 10%;}
+.botn{border: 1px solid brown;padding: 10px;
+color: brown;}
+.botn:hover{color: white;
+background-color: brown;
+transition: 1s;}
+#money{width: 45px;
+margin-right: 20px;
+margin-left: 10px;
+margin-top: 5px;}
+.mon{display: flex;
+border: 1px solid gray;
+padding: 10px;
+margin-right: 20px;s}
+.head{width: 45px;
+  margin-right: 20px;
+  margin-left: 10px;
+margin-top: 5px;}
+.cv{display: flex;
+border: 1px solid gray;
+margin-right: 20px;
+padding: 10px;}
+.feat{display: flex;
+padding: 15px;
+height: 150px;
+margin-top: 40px;
+margin-bottom: 40px;}
+.ship{width: 45px;
+  margin-right: 20px;
+  margin-left: 10px;
+margin-top: 5px;}
+.dv{display: flex;
+border: 1px solid gray;
+}
+.pa{width: 45px;
+  margin-right: 20px;
+margin-left: 10px;
+margin-top: 5px;}
+.fv{display: flex;
+border: 1px solid gray;
+padding: 10px;
+}
+.gv{display: flex;
+border: 1px solid gray;
+margin-right: 20px;
+padding: 10px;}
+.shipp{width: 45px;
+  margin-right: 20px;
+margin-left: 10px;
+margin-top: 5px;}
+.special{display: flex;
+flex-direction: row;
+margin-left: 5%;
+margin-right: 5%;}
+
+@media screen and (max-width:1442px){
+body{ }
+}
+ 
+ nav{height: 90px;}
+</style>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><b>NEARSTORE</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <section class="ws">
+            <div><div class="bol" style="display: flex;">
+                    
+              <select id="burr" class="form-select form-select-sm w-8  " aria-label=".form-select-lg example">
+                  <option selected>All Catagories</option>
+                  <option value="1">Fashion</option>
+                  <option value="2">Foot Wear</option>
+                  <option value="3">For Kids</option>
+                </select>
+          <input type="text" placeholder="Search in..." style="color: black;background-color: white; border:none ; ">
+               
+          </div>
+          </div>
+          </section>
+
+            <img src="icons8-phone-30.png">
+<p class="call">Call us at: <br> <b>+92 300 9876543</b></p>
+<div class="wish">
+    <img src="icons8-heart-32.png">
+<p>Wishlist</p>
+</div>
+<div class="compare">
+<img src="icons8-ab-testing-32.png"  alt="">
+<p>Compare</p>
+</div>
+<div style="border: none;" class="yq">
+<img class="cart" src="icons8-shopping-cart-with-money-32.png" alt="">
+<p class="qw">Cart</p>
+</div>
+          
+          </div>
+        </div>
+      </nav>
+      
+      <div class="hero">
+          
+<div class="sd">
+    <h5 style="color:brown ;" >FROM ONLINE STORE</h5>
+    <h3><b>NIKE SHOES</b></h3>
+    <h4>Recommended</h4>
+    <p>Free Shipping on all orders over <b>499 Rupees</b> </p>
+    <button class="botn" >SHOP NOW→</button>
+</div>
+<img width="350px" style="margin-left: 10%;margin-top: 5%;" src="175-1753289_sports-shoes-for-men-png-transparent-background-nike.png">
+
+</div>
+      </div>
+
+      <div class="feat">
+<div class="mon">
+  <div><svg id="money" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M252 208C252 196.1 260.1 188 272 188H288C299 188 308 196.1 308 208V276H312C323 276 332 284.1 332 296C332 307 323 316 312 316H264C252.1 316 244 307 244 296C244 284.1 252.1 276 264 276H268V227.6C258.9 225.7 252 217.7 252 208zM512 64C547.3 64 576 92.65 576 128V384C576 419.3 547.3 448 512 448H64C28.65 448 0 419.3 0 384V128C0 92.65 28.65 64 64 64H512zM128 384C128 348.7 99.35 320 64 320V384H128zM64 192C99.35 192 128 163.3 128 128H64V192zM512 384V320C476.7 320 448 348.7 448 384H512zM512 128H448C448 163.3 476.7 192 512 192V128zM288 144C226.1 144 176 194.1 176 256C176 317.9 226.1 368 288 368C349.9 368 400 317.9 400 256C400 194.1 349.9 144 288 144z"/></svg></div>
+  <div><h5><b>MONEY BACK GUARENTEE</b></h5>
+  
+    <p>
+      <b>Anything Back With in 3 Days</b>
+      </p></div>
+</div>
+<div class="cv">
+<div><svg class="head" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M191.1 224c0-17.72-14.34-32.04-32-32.04L144 192c-35.34 0-64 28.66-64 64.08v47.79C80 339.3 108.7 368 144 368H160c17.66 0 32-14.36 32-32.06L191.1 224zM256 0C112.9 0 4.583 119.1 .0208 256L0 296C0 309.3 10.75 320 23.1 320S48 309.3 48 296V256c0-114.7 93.34-207.8 208-207.8C370.7 48.2 464 141.3 464 256v144c0 22.09-17.91 40-40 40h-110.7C305 425.7 289.7 416 272 416H241.8c-23.21 0-44.5 15.69-48.87 38.49C187 485.2 210.4 512 239.1 512H272c17.72 0 33.03-9.711 41.34-24H424c48.6 0 88-39.4 88-88V256C507.4 119.1 399.1 0 256 0zM368 368c35.34 0 64-28.7 64-64.13V256.1C432 220.7 403.3 192 368 192l-16 0c-17.66 0-32 14.34-32 32.04L320 335.9C320 353.7 334.3 368 352 368H368z"/></svg></div>
+<div><h5><b>CUSTOMER SUPPORT</b></h5>
+  <p>
+    <b>Call or Email Us 24/7</b>
+    </p>
+  </div>
+
+</div>
+
+
+<div class="gv">
+  <div><svg class="shipp" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M64 48C64 21.49 85.49 0 112 0H368C394.5 0 416 21.49 416 48V256H608V352C625.7 352 640 366.3 640 384C640 401.7 625.7 416 608 416H576C576 469 533 512 480 512C426.1 512 384 469 384 416H256C256 469 213 512 160 512C106.1 512 64 469 64 416V288H208C216.8 288 224 280.8 224 272C224 263.2 216.8 256 208 256H16C7.164 256 0 248.8 0 240C0 231.2 7.164 224 16 224H240C248.8 224 256 216.8 256 208C256 199.2 248.8 192 240 192H48C39.16 192 32 184.8 32 176C32 167.2 39.16 160 48 160H272C280.8 160 288 152.8 288 144C288 135.2 280.8 128 272 128H16C7.164 128 0 120.8 0 112C0 103.2 7.164 96 16 96H64V48zM160 464C186.5 464 208 442.5 208 416C208 389.5 186.5 368 160 368C133.5 368 112 389.5 112 416C112 442.5 133.5 464 160 464zM480 368C453.5 368 432 389.5 432 416C432 442.5 453.5 464 480 464C506.5 464 528 442.5 528 416C528 389.5 506.5 368 480 368zM466.7 160H400V96H466.7C483.7 96 499.1 102.7 512 114.7L589.3 192C601.3 204 608 220.3 608 237.3V288H544V237.3L466.7 160z"/></svg></div>
+  <div><h5><b>FREE SHIPPING & RETURNS</b></h5>
+    <p>
+      <b>For All Orders Over 399</b>
+      </p>
+    </div>
+  
+  </div>
+
+
+<div class="fv">
+  <div><svg class="pa" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M512 32C547.3 32 576 60.65 576 96V128H0V96C0 60.65 28.65 32 64 32H512zM576 416C576 451.3 547.3 480 512 480H64C28.65 480 0 451.3 0 416V224H576V416zM112 352C103.2 352 96 359.2 96 368C96 376.8 103.2 384 112 384H176C184.8 384 192 376.8 192 368C192 359.2 184.8 352 176 352H112zM240 384H368C376.8 384 384 376.8 384 368C384 359.2 376.8 352 368 352H240C231.2 352 224 359.2 224 368C224 376.8 231.2 384 240 384z"/></svg></div>
+  <div><h5><b>SECURE PAYMENT</b></h5>
+    <p>
+      <b>We Insure Secure Payment</b>
+      </p>
+    </div>
+  
+  </div>
+
+      </div>
+
+      <div style="display: flex;margin-bottom: 3%;">
+
+        <div style="display: flex;width:50%;background-color: lightgray;margin-right: 20px;margin-left: 20px;"><div style="margin-left:30px;margin-top:40px"><p><b>Electronics</b><br> <i>STARTING AT <b>$270</b></i> <br><b>DISCOVER NOW →</b></p></div><img style="margin-left: 20%;" width="200px" src="Home-Appliance-PNG-Image (1).png" alt=""></div>
+        <div style="display: flex;width:50%;background-color: lightgray;margin-right: 20px;"><div style="margin-left:30px;margin-top:40px"><p><b>Furniture</b><br><i>STARTING AT <b>$520</b></i><br><b>DISCOVER NOW →</b></p></div><img style="margin-left: 20%;" width="200px" src="Outdoor-Furniture-PNG-Pic.png" alt=""></div>
+        
+
+       </div>
+
+       <div style="margin-bottom:20px;" class="vb">
+        <div> <b>Hot offers for you</b></div>
+         <div class="nh"></div>
+       </div>
+
+       <div style="display: flex;">
+  
+         <div style="display: flex;border: 1px solid brown; width: 50%;padding: 2%;margin-left:3%;margin-right:3%">
+           <div><img width="75%"  src="175-1753289_sports-shoes-for-men-png-transparent-background-nike.png"></div>
+           <div>
+             <h5><b>Lorem Ipsum dolor sit amet,</b></h5>
+             <img src="#">
+             <h5><b>$32</b></h5>
+             <p>Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Molestiae dolorum aperiam blanditiis error aut modi,</p>
+             <div>
+               <button>ADD TO CART</button>
+             </div>
+           </div>
+         </div>
+
+         <div style="display: flex;border: 1px solid brown;margin-right: 2%; width: 50%;padding: 2%;">
+          <div><img width="100%" style="padding-right: 30px;" src="model-png-1985 (1).png"></div>
+          <div>
+            <h5><b>Lorem Ipsum dolor sit amet,</b></h5>
+            <img src="#">
+            <h5><b>$32</b></h5>
+            <p>Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Molestiae dolorum aperiam blanditiis error aut modi,</p>
+            <div>
+              <button>ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+         
+       </div>   
+
+<div>
+  <div></div>
+  <div></div>
+</div>
+
+      <div style="margin-bottom:20px;" class="vb">
+        <div> <b>Catagories</b></div>
+         <div class="nh"></div>
+       </div>
+
+      <div class="special" style="background-color: whitesmoke;"> 
+        <div class="card m-5">
+          <img width="20px" src="model-png-1985 (1).png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">FASHION'S</h5>
+            <p class="card-text">Starting at 199</p>
+            <a href="#" class="btn btn-danger">SHOP NOW →</a>
+          </div>
+        </div>
+      
+        <div class="card m-5" style="width: 400px;">
+          <img src="175-1753289_sports-shoes-for-men-png-transparent-background-nike.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">FOOTWEAR</h5>
+            <p class="card-text">Starting at 599</p>
+            <a href="#" class="btn btn-danger">SHOP NOW →</a>
+          </div>
+        </div>
+
+          <div class="card m-5" style="width: 400px;">
+            <img src="mens-fashion-shirts-250x250.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">FOR MENS</h5>
+              <p class="card-text">Starting at 499</p>
+              <a href="#" class="btn btn-danger">SHOP NOW →</a>
+            </div>
+
+      </div>
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+       </div>
+       </div>
+<style>
+  .sell{display: flex;
+  margin-left: 60px;
+  margin-bottom: 20px;}
+  .qq{width: 200px;
+  border: 1px solid brown;
+margin-right: 10px;}
+  .ww{width: 233px;
+    margin-right: 10px;
+    border: 1px solid brown;}
+  .ee{width: 200px;
+    margin-right: 10px;
+    border: 1px solid brown;}
+  .rr{width: 200px;
+    margin-right: 10px;
+    border: 1px solid brown;}
+  .tt{width: 200px;
+    margin-right: 10px;
+    border: 1px solid brown;}
+    .nh{border-bottom: 1px solid gray;
+    width: 70%;}  
+    .vb{display: flex;
+      flex-direction: row;
+    margin-bottom: 20px;
+    margin-left: 50px;}
+
+    @media screen and (max-width:1135px) {
+     
+    }
+</style>
+<div style="margin-bottom:30px;margin-top: 5%;" class="vb">
+ <div> <b>Best Sellings</b></div>
+  <div class="nh"></div>
+</div>
+       <div class="sell">
+
+<div class="men"><img class="qq" src="175-1753289_sports-shoes-for-men-png-transparent-background-nike.png" alt="">
+  <br>
+Lorem ipsum <br>
+<b>$14.50</b> </div>
+<div><img class="ww" src="mens-fashion-shirts-250x250.jpg" alt=""> <br>
+  Lorem ipsum <br>
+  <b>$14.50</b></div>
+<div><img class="ee" src="175-1753289_sports-shoes-for-men-png-transparent-background-nike.png" alt=""> <br>
+  Lorem ipsum <br>
+  <b>$14.50</b></div>
+<div><img  class="rr" src="model-png-1985 (1).png" alt=""> <br>
+  Lorem ipsum <br>
+  <b>$14.50</b></div>
+<div><img class="tt" src="model-png-1985 (1).png" alt=""> <br>
+  Lorem ipsum <br>
+  <b>$14.50</b></div>
+
+
+       </div>
+
+       <div style="margin-bottom: 30px;" class="sell">
+
+        <div><img class="qq" src="175-1753289_sports-shoes-for-men-png-transparent-background-nike.png" alt="">
+          <br>
+        Lorem ipsum <br>
+        <b>$14.50</b></div>
+        <div><img class="ww" src="mens-fashion-shirts-250x250.jpg" alt=""> <br>
+          Lorem ipsum <br>
+          <b>$14.50</b></div>
+        <div><img class="ee" src="175-1753289_sports-shoes-for-men-png-transparent-background-nike.png" alt=""> <br>
+          Lorem ipsum <br>
+          <b>$14.50</b></div>
+        <div><img  class="rr" src="model-png-1985 (1).png" alt=""> <br>
+          Lorem ipsum <br>
+          <b>$14.50</b></div>
+        <div><img class="tt" src="model-png-1985 (1).png" alt=""> <br>
+          Lorem ipsum <br>
+          <b>$14.50</b></div>
+        
+        
+               </div>
+
+               <div style="display: flex;">
+
+                <div style="display: flex;width:50%;background-color: lightgray;margin-right: 20px;margin-left: 20px;"><div style="margin-left:30px;margin-top:40px"><p><b>Electronics</b><br> <i>STARTING AT <b>$270</b></i> <br><b>DISCOVER NOW →</b></p></div><img style="margin-left: 20%;" width="200px" src="Home-Appliance-PNG-Image (1).png" alt=""></div>
+                <div style="display: flex;width:50%;background-color: lightgray;margin-right: 20px;"><div style="margin-left:30px;margin-top:40px"><p><b>Furniture</b><br><i>STARTING AT <b>$520</b></i><br><b>DISCOVER NOW →</b></p></div><img style="margin-left: 20%;" width="200px" src="Outdoor-Furniture-PNG-Pic.png" alt=""></div>
+                
+
+               </div>
+
+<hr>
+               <div style="margin-left: 10%;" class="sell">
+
+                <div class="qq" style="background-color: brown;">
+               <div style="margin-left: 30px;
+               margin-top:70px;"> <b style="color: white;">NEW ARRIVALS</b>
+                <p  style="color: white;">Sale upto <b>30% off</b></p>
+                <button style="color: white;border: 1px solid white;background-color: brown;">SHOP NOW</button></div>
+                 </div>
+                <div><img class="ww" src="mens-fashion-shirts-250x250.jpg" alt=""> <br>
+                  Lorem ipsum <br>
+                  <b>$14.50</b></div>
+                <div><img class="ee" src="175-1753289_sports-shoes-for-men-png-transparent-background-nike.png" alt=""> <br>
+                  Lorem ipsum <br>
+                  <b>$14.50</b></div>
+                <div><img  class="rr" src="model-png-1985 (1).png" alt=""> <br>
+                  Lorem ipsum <br>
+                  <b>$14.50</b></div>
+               
+                
+                       </div>
+                <style>
+                  .po{
+                    display: flex;background-color: brown;padding-bottom: 7%;"
+                  }
+                </style>
+
+  <div class="po">
+<div style="margin-left: 5%;margin-top: 3%;">
+
+  <h5 style="padding-top: 5%;color: white";><b>Download App</b></h5>
+  <h6  style=";color: white;">Nearstore is now availible <br>
+     on App Store & Google Play. <br>Get it now.</h6>
+<img width="35%" style="margin-top: 2%;" src="app-store-google-play-logo-4A2747BF5E-seeklogo.com.png">
+
+</div>
+
+
+<div style="margin-left: 20%;margin-top: 3%;border-left: 1px solid gray;padding-left: 5%;">
+  <h6 style="color: white;">Sign up to our newsletter <br>Join 100,000+ subscribers and get a new discount coupen <br>every week</h6>
+  <p style="color: white;">You Can Update your preference and unsubscribe at any time.</p>
+  <input type="email" placeholder="Email Address"> <br>
+  <div style="display: flex;flex-direction: row;background-color: whitesmoke;width: 150px;margin-top: 3%;">
+    <input type="checkbox" style="margin-left: 2%;width: 20%;height:20px;margin-top: 7%;">
+    <p style="margin-top: 4%;">I'm not a robot</p>
+   
+  </div>
+  <button style="margin-top: 5%;border: none;padding: 2%;"><b>Sign me up</b></button>
+</div>
+
+  </div>
+        
+<style>
+  .bol{width: 65%;}
+  .ws{background-color: white;
+  width: 40%;
+margin-left: 15%;
+border: 1px solid brown;
+}
+  select{width: 50%;}
+
+</style>
+<section class="ws">
+  <div><div class="bol" style="display: flex;">
+          
+    <select id="burr" class="form-select form-select-sm w-8  " aria-label=".form-select-lg example">
+        <option selected>All Catagories</option>
+        <option value="1">Fashion</option>
+        <option value="2">Foot Wear</option>
+        <option value="3">For Kids</option>
+      </select>
+<input type="text" placeholder="Search in..." style="color: black;background-color: white; border:none ; ">
+     
+</div>
+</div>
+</section>
+
+
+<script>
+
+
+  
+</script>
+
+
+</body>
+</html>
